@@ -8,7 +8,7 @@ export default function BlogPreviewCard({
 	blogPreview: BlogPreview;
 }) {
 	return (
-		<div className="bg-white rounded-[1.25rem] shadow-lg p-6 w-96 mx-6 flex flex-col gap-6 drop-shadow-[10px_10px_0px_#111111] border border-solid border-gray-950">
+		<div className="bg-white rounded-[1.25rem] shadow-lg p-6 w-96 mx-6 flex flex-col gap-6 drop-shadow-[8px_8px_0px_#111111] border border-solid border-gray-950">
 			<img className="rounded-[0.625rem]" src={blogImage} alt="blog image" />
 			<div className="flex flex-col gap-3">
 				<div className="py-1 px-3 w-fit rounded-sm bg-background-color">
