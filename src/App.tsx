@@ -15,7 +15,7 @@ function App() {
 	};
 
 	return (
-		<div>
+		<div className="bg-background-color h-screen flex justify-center items-center">
 			<BlogPreviewCard blogPreview={blogPreview} />
 		</div>
 	);
